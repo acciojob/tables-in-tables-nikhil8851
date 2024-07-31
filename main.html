@@ -6,11 +6,20 @@
     <title>Table</title>
     <style>
         /* Add your CSS here */
+        table {
+            width: 100%;
+            border: solid 2px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: solid 1px;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
-    <table style="width: 100%; border: solid 2px;">
-        <tr>
+    <table>
+       <tr>
     <td>
         <table>
             <thead>
@@ -21,44 +30,16 @@
             <tbody>
                 <tr>
                     <td>Column 1</td>
-					 <td>Column 2</td>
+                    <td>Column 2</td>
                 </tr>
-				<tr>
+                <tr>
                     <td>abc</td>
-					 <td>def</td>
-                </tr>
-
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
-    </td>
-</tr>
-        <!-- Repeat the above structure for the remaining nested tables -->
-
-		<tr>
-    <td>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nested Table 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                       Nested Table
-                    </td>
-					<td>
-						Demo Continued
-					</td>
+                    <td>def</td>
                 </tr>
             </tbody>
         </table>
     </td>
-</tr>
-
-<tr>
-    <td>
+     <td>
         <table>
             <thead>
                 <tr>
@@ -68,37 +49,49 @@
             <tbody>
                 <tr>
                     <td>
-                        <ul>
-                            <li>List item 1</li>
-                            <li>List item 2</li>
-                            <li>List item 3</li>
-                        </ul>
-                    </td>
+						<ul>
+							<li>List item 1</li>
+							<li>List item 2</li>
+							<li>List item 2</li>
+						</ul>
+					</td>
                 </tr>
             </tbody>
         </table>
     </td>
 </tr>
-
-
-
-		<tr>
+<tr>
     <td>
         <table>
             <thead>
                 <tr>
-                    <th>Nested Table 2</th>
+                    <th>Nested Table 3</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                       HTML
-                    </td>
+                    <td>Nested Table</td>
+                    <td>Demo Continued</td>
                 </tr>
             </tbody>
         </table>
     </td>
+	<td>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nested Table 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </td>
+   
 </tr>
 		
     </table>
