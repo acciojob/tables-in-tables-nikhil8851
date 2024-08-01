@@ -7,10 +7,13 @@
     <style>
         /* Add your CSS here */
         table {
-            width: 100%;
+            width: 330px;
             border: solid 2px;
-            border-collapse: collapse;
+/* 
+            border-collapse: collapse; */
         }
+		#h{height:340px;
+		  border: solid 1px;}
         th, td {
             border: solid 1px;
             padding: 10px;
@@ -18,13 +21,13 @@
     </style>
 </head>
 <body>
-    <table>
-       <tr>
-    <td>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nested Table 2</th>
+    <table >
+       <tr id="h">
+    <td >
+        <table  >
+            <thead >
+                <tr >
+                    <th colspan="2">Nested Table 2</th>
                 </tr>
             </thead>
             <tbody>
@@ -43,7 +46,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>Nested Table 1</th>
+                    <th > Nested Table 1</th>
                 </tr>
             </thead>
             <tbody>
@@ -65,7 +68,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>Nested Table 3</th>
+                    <th colspan="2">Nested Table 3</th>
                 </tr>
             </thead>
             <tbody>
