@@ -19,6 +19,9 @@ td {
 	background : black;
 	color : white;
 }
+li{
+	font-size: 20px;
+}
 ```
 
 Or, you can create a class and apply it to elements as needed:
