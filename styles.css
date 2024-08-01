@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+td {
+    text-align: center;
+}
+```
+
+Or, you can create a class and apply it to elements as needed:
+
+```
+.center-text {
+    text-align: center;
+}
+/* Your CSS Code here. */
+td {
+    text-align: center;
+}
+#bla {
+	background : black;
+	color : white;
+}
+```
+
+Or, you can create a class and apply it to elements as needed:
+
+```
+.center-text {
+    text-align: center;
+}
